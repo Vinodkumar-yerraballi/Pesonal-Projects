@@ -43,3 +43,12 @@ In the second dataset, we used a statistical method called variance inflation fa
 [link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/E-commecre/E-Commerce.ipynb)
 
 This is an E-commerce project aimed at predicting products. The dataset contains several columns such as brand, size, price, selling price, etc. We begin the project by loading the dataset and checking its data types, preprocessing, null values, and duplicate values. During data preprocessing, we remove extra keywords and apply NLP techniques to the "details" column to replace unknown values with the right values. Next, we perform some EDA with the data, including box plots, bar charts, and scatter charts. Finally, the data is ready for modeling, and we reserve 25% for testing and use the remaining data for training. Since it is a regression problem, we apply regression algorithms to predict the root mean squared error, and we find the least root mean squared error for the data.
+
+## EDA 
+[EDA](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/EDA)
+
+We have worked with multiple datasets, including world population, customer shopping, Netflix, and sales data. Our first step is always to preprocess the data, including handling missing values and duplicates. Next, we perform exploratory data analysis (EDA) using various visualization techniques like bar plots, pie charts, tables, boxplots, histograms, and scatter plots to identify patterns and ask relevant data science questions.
+
+For the world population dataset, we focused on visualizing the countries with the highest and lowest populations. For the customer shopping dataset, we plan to apply clustering techniques after converting categorical columns to numerical and standardizing the data. The Netflix dataset allowed us to visualize the number of movies released in each year, the most common directors, and the countries with the most movies released. Finally, for the sales data, we used EDA techniques like bar plots, pie charts, and scatter plots.
+
+After completing EDA, we reserve 25% of the data for testing and use the remaining data for training. Since it is a regression problem, we apply regression algorithms to predict the root mean squared error, and we find the least root mean squared error for the data. Additionally, we used an ANN method using TensorFlow and achieved a low mean-squared-error. Overall, our experience in data preprocessing, EDA, and modeling has prepared us for this position.
