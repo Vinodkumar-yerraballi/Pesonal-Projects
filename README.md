@@ -39,7 +39,7 @@ In the project, we used two datasets. The first dataset was an imbalanced datase
 
 In the second dataset, we used a statistical method called variance inflation factor to identify the columns with a VIF value greater than 5 and remove them from the data. After that, we applied several classification algorithms, and BernoulliNB gave the best accuracy score for the data.
 
-## E-Commerce Projects
+## 4. E-Commerce Projects
 [link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/E-commecre/E-Commerce.ipynb)
 
 This is an E-commerce project aimed at predicting products. The dataset contains several columns such as brand, size, price, selling price, etc. We begin the project by loading the dataset and checking its data types, preprocessing, null values, and duplicate values. During data preprocessing, we remove extra keywords and apply NLP techniques to the "details" column to replace unknown values with the right values. Next, we perform some EDA with the data, including box plots, bar charts, and scatter charts. Finally, the data is ready for modeling, and we reserve 25% for testing and use the remaining data for training. Since it is a regression problem, we apply regression algorithms to predict the root mean squared error, and we find the least root mean squared error for the data.
@@ -52,3 +52,15 @@ We have worked with multiple datasets, including world population, customer shop
 For the world population dataset, we focused on visualizing the countries with the highest and lowest populations. For the customer shopping dataset, we plan to apply clustering techniques after converting categorical columns to numerical and standardizing the data. The Netflix dataset allowed us to visualize the number of movies released in each year, the most common directors, and the countries with the most movies released. Finally, for the sales data, we used EDA techniques like bar plots, pie charts, and scatter plots.
 
 After completing EDA, we reserve 25% of the data for testing and use the remaining data for training. Since it is a regression problem, we apply regression algorithms to predict the root mean squared error, and we find the least root mean squared error for the data. Additionally, we used an ANN method using TensorFlow and achieved a low mean-squared-error. Overall, our experience in data preprocessing, EDA, and modeling has prepared us for this position.
+
+
+## 5.Flight delay project 
+[Flight delay projects](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Flight_delay/Flight_Delay_prediction_.ipynb)
+
+ The dataset was taken from Kaggle and loaded into Jupyter Notebook for data preprocessing. Techniques such as removing null values, duplicates, and correcting data types were applied. EDA was then performed to identify the busiest airlines and airports at different times. Various questions were asked of the data, and visualizations were created using matplotlib, seaborn, and plotly. The groupby and pivot table functions were utilized to extract meaningful information from the data. All categorical columns were converted into numerical values using label encoder. The data was split into training and testing sets, and classification algorithms were applied as this was a classification problem. Logistic Regression and Random Forest were used, which achieved an accuracy score of 60%. To improve the model, ANN was used with Tensorflow libraries, resulting in an accuracy score of around 68% after 20 epochs.
+
+## 6.Frud detection
+
+[Frud detection](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Frud_detection/INSAD%20Data%20science%20.ipynb)
+
+This is the beginning of my data science journey. I obtained a dataset from Kaggle and loaded it into Jupyter Notebook. I performed some EDA on the data, visualizing the data using bar plots, box plots, and pie charts. I then converted all categorical columns into numerical values and created two variables, one independent and the other dependent. Once I divided the data into training and testing sets, I normalized it using the standard scaler. We applied classification algorithms to the data, as it was a classification problem, which resulted in a good accuracy score. I also visualized the classification report and confusion matrix
