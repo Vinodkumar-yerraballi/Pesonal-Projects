@@ -1,66 +1,124 @@
 # Personal Projects
 
-## 1. Bigbasket Analysis:
-[link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/BigBasker_analysis/Big%20Basket.ipynb)
-    
-Bigbasket is the largest online grocery supermarket in India. Was launched somewhere around in 2011 since then they've been expanding their business. Though some new competitors have been able to set their foot in the nation such as Blinkit etc. but BigBasket has still not loose anything - thanks to ever expanding popular base and their shift to online buying.
+This repository contains various data science and machine learning projects, including exploratory data analysis (EDA), predictive modeling, and data visualization. Each project is implemented in Jupyter Notebooks using Python libraries such as Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, and more.
 
-Firstly, we received the dataset and started with data preprocessing steps such as loading the data, checking information and null values, and checking for duplicate values. After that, we performed some EDA using matplotlib, seaborn, and plotly libraries, where we created pie charts, bar charts, pivot tables, and boxplots. As the dataset had a description column which was text-based, we utilized natural language processing techniques to convert it into a vector format. We also converted the categorical columns into numerical format using labelencoder. Once all these techniques were applied, the data was ready for modeling. This was a regression problem, where we aimed to predict the price of a product using several regression algorithms. Finally, we used the accuracy_score metric to evaluate the performance of the Linear Regression and DecisionTreeRegressor models.
+## Projects
 
-## 2. Commanwealth-games-2022
-[link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/Commanwealth-games-2022)
+### 1. Car Price Prediction
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/car-price-prediction.ipynb)  
+A machine learning project to predict car prices based on features like brand, model, year, mileage, etc. Involves data preprocessing, EDA, and regression algorithms.
 
-This is the data for the 2022 Commonwealth Games. As usual, we followed the data preprocessing steps and then asked questions about the data while visualizing it. Here are some of the questions that were asked.
-  '''
-  EXPLORATORY DATA ANALYSIS
-  Questions :
+### 2. Hotel Booking Analysis
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/hotel-booking.ipynb)  
+Analysis of hotel booking data to understand booking patterns, cancellations, and factors affecting bookings. Includes EDA and predictive modeling.
 
-How is the descriptive analysis of the data?
-What are 10 countries that have highest number of total gold medal?
-What are 10 countries that have highest number of total silver medal?
-What are 10 countries that have highest number of total bronze medal?
-What are 10 countries that have highest number of total medal?
-What are 10 countries that have lowest number of total gold medal?
-What are 10 countries that have lowest number of total silver medal?
-What are 10 countries that have lowest number of total bronze medal?
-What are 10 countries that have lowest number of total medal?
-How is the distribution of total gold medal between countries?
-How is the distribution of total silver medal between countries?
-How is the distribution of total bronze medal between countries?
-Are total gold medal, total silver medal, total bronze medal affect the country rank in 2022 Common Wealth Games Medal Standings?
-How is the correlation between rank with total gold medal, total silver medal and total bronze medal?
-  '''
-We asked these type of questions to the data
+### 3. Twitter Sentimental Analysis
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/twitter-sentimental-analysis-project-ipynb.ipynb)  
+Sentiment analysis on Twitter data using NLP techniques to classify tweets as positive, negative, or neutral.
 
-## 3. Credit card frud detection
-[link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/Credit-card_fraud-detection)
+### 4. Airline Passenger Booking Data
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Airline%20Passanger%20data/Airline%20passange%20booking%20data.ipynb)  
+Analysis of airline passenger booking data, including preprocessing, EDA, and predictions related to bookings.
 
-In the project, we used two datasets. The first dataset was an imbalanced dataset, and the second one was a classification problem. We started with the usual data preprocessing steps, such as loading the data, removing null values, and dropping duplicates. After that, we performed some EDA to gain insights into the data. Then, we applied various techniques to balance the imbalanced data, such as SMOTE, NearMiss, and RandomOver. By doing so, we balanced the label data, and the data became ready for modeling. Since it was a classification problem, we applied various classification algorithms, and we got good accuracy with the RandomForest classifier.
+### 5. Average Time Spent on Social Media
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Average_time_spent_on_socialmedia/average-time-spent-by-a-user-on-social-media%20(1).ipynb)  
+EDA on data about average time users spend on social media platforms, visualizing trends and patterns.
 
-In the second dataset, we used a statistical method called variance inflation factor to identify the columns with a VIF value greater than 5 and remove them from the data. After that, we applied several classification algorithms, and BernoulliNB gave the best accuracy score for the data.
+### 6. Big Basket Analysis
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/BigBasker_analysis/Big%20Basket.ipynb)  
+Analysis of BigBasket grocery data, including product pricing prediction using regression models after NLP and data preprocessing.
 
-## 4. E-Commerce Projects
-[link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/E-commecre/E-Commerce.ipynb)
+### 7. Big Mart Sales Prediction
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/BigmartsalesPrediction/bigmartproducts%20(2).ipynb)  
+Predicting sales for Big Mart products using regression algorithms, involving feature engineering and EDA.
 
-This is an E-commerce project aimed at predicting products. The dataset contains several columns such as brand, size, price, selling price, etc. We begin the project by loading the dataset and checking its data types, preprocessing, null values, and duplicate values. During data preprocessing, we remove extra keywords and apply NLP techniques to the "details" column to replace unknown values with the right values. Next, we perform some EDA with the data, including box plots, bar charts, and scatter charts. Finally, the data is ready for modeling, and we reserve 25% for testing and use the remaining data for training. Since it is a regression problem, we apply regression algorithms to predict the root mean squared error, and we find the least root mean squared error for the data.
+### 8. Commonwealth Games 2022
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/Commanwealth-games-2022)  
+EDA on Commonwealth Games 2022 medal data, answering questions about medal distributions and country rankings.
 
-## EDA 
-[EDA](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/EDA)
+### 9. Credit Card Fraud Detection
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/Credit_card_frud_detection)  
+Fraud detection using classification algorithms on imbalanced datasets, including techniques like SMOTE for balancing data.
 
-We have worked with multiple datasets, including world population, customer shopping, Netflix, and sales data. Our first step is always to preprocess the data, including handling missing values and duplicates. Next, we perform exploratory data analysis (EDA) using various visualization techniques like bar plots, pie charts, tables, boxplots, histograms, and scatter plots to identify patterns and ask relevant data science questions.
+### 10. Crimes Against Women
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Crimes%20against%20womens/Crimes%20Against%20women%202001-2014.ipynb)  
+Analysis of crime data against women in India from 2001-2014, including trends and visualizations.
 
-For the world population dataset, we focused on visualizing the countries with the highest and lowest populations. For the customer shopping dataset, we plan to apply clustering techniques after converting categorical columns to numerical and standardizing the data. The Netflix dataset allowed us to visualize the number of movies released in each year, the most common directors, and the countries with the most movies released. Finally, for the sales data, we used EDA techniques like bar plots, pie charts, and scatter plots.
+### 11. Data Scientist Salaries
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Data%20Scientist%20Salaries/Data%20Scientist%20Salaries.ipynb)  
+EDA on data scientist salary data, exploring factors affecting salaries.
 
-After completing EDA, we reserve 25% of the data for testing and use the remaining data for training. Since it is a regression problem, we apply regression algorithms to predict the root mean squared error, and we find the least root mean squared error for the data. Additionally, we used an ANN method using TensorFlow and achieved a low mean-squared-error. Overall, our experience in data preprocessing, EDA, and modeling has prepared us for this position.
+### 12. E-Commerce Product Prediction
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/E-commecre/E-Commerce.ipynb)  
+Predicting product prices in an e-commerce dataset using regression after NLP and EDA.
 
+### 13. Exploratory Data Analysis (EDA)
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/EDA)  
+Multiple EDA projects including world population, customer analytics, Netflix data, sales analysis, agriculture, and more. Involves data visualization and preprocessing.
 
-## 5.Flight delay project 
-[Flight delay projects](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Flight_delay/Flight_Delay_prediction_.ipynb)
+### 14. Employee Leave Classification
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Employee/employeeleave-or-not-classification-problem.ipynb)  
+Classification problem to predict whether an employee will leave based on various features.
 
- The dataset was taken from Kaggle and loaded into Jupyter Notebook for data preprocessing. Techniques such as removing null values, duplicates, and correcting data types were applied. EDA was then performed to identify the busiest airlines and airports at different times. Various questions were asked of the data, and visualizations were created using matplotlib, seaborn, and plotly. The groupby and pivot table functions were utilized to extract meaningful information from the data. All categorical columns were converted into numerical values using label encoder. The data was split into training and testing sets, and classification algorithms were applied as this was a classification problem. Logistic Regression and Random Forest were used, which achieved an accuracy score of 60%. To improve the model, ANN was used with Tensorflow libraries, resulting in an accuracy score of around 68% after 20 epochs.
+### 15. Flight Delay Prediction
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Flight_delay/Flight_Delay_prediction_.ipynb)  
+Predicting flight delays using classification algorithms and ANN, with EDA on airline and airport data.
 
-## 6.Frud detection
+### 16. Fraud Detection
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Frud_detection/INSAD%20Data%20science%20.ipynb)  
+Another fraud detection project using classification on financial data.
 
-[Frud detection](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Frud_detection/INSAD%20Data%20science%20.ipynb)
+### 17. Global Stores EDA
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Global%20stores%20EDA/global-supersotre%20(1).ipynb)  
+EDA on global superstore data, analyzing sales and performance metrics.
 
-This is the beginning of my data science journey. I obtained a dataset from Kaggle and loaded it into Jupyter Notebook. I performed some EDA on the data, visualizing the data using bar plots, box plots, and pie charts. I then converted all categorical columns into numerical values and created two variables, one independent and the other dependent. Once I divided the data into training and testing sets, I normalized it using the standard scaler. We applied classification algorithms to the data, as it was a classification problem, which resulted in a good accuracy score. I also visualized the classification report and confusion matrix 
+### 18. Heart Attack in Youth vs Adult
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Heart%20Attack%20in%20Youth%20Vs%20Adult%20in%20America(State)/heart-attack-in-youth-vs-adult-in-america-state.ipynb)  
+Analysis of heart attack data comparing youth and adults in American states.
+
+### 19. Indian Agriculture
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/indain_Agriculter/Indian_Agriculture.ipynb)  
+EDA on Indian agriculture data, exploring crop production and related factors.
+
+### 20. India Crime Analysis
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/India%20Crime/India%20crime%20analysis.ipynb)  
+Analysis of crime data in India, including trends and visualizations.
+
+### 21. Indian Startup EDA
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/indian_startup/indian-startup-eda.ipynb)  
+EDA on Indian startup data, analyzing funding, sectors, and growth.
+
+### 22. Linear Regression
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/LinearRegression/Linear%20Regression%202%20.ipynb)  
+Implementation of linear regression models for prediction tasks.
+
+### 23. Media Prediction
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/media%20prediction/media%20prediction.ipynb)  
+Predictive modeling on media-related data.
+
+### 24. Mytra Analysis
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Mytra/mytra.ipynb)  
+Analysis of Mytra (possibly Myntra) e-commerce data.
+
+### 25. Netflix Analysis
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Netflix)  
+Multiple notebooks analyzing Netflix TV shows and movies data, including EDA and recommendations.
+
+## Technologies Used
+- Python
+- Jupyter Notebook
+- Pandas, NumPy
+- Matplotlib, Seaborn, Plotly
+- Scikit-learn
+- TensorFlow/Keras (for ANN)
+- NLTK/Spacy (for NLP)
+
+## Getting Started
+Clone the repository and open the notebooks in Jupyter to explore the projects. Ensure you have the required libraries installed.
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn tensorflow
+```
+
+## Contact
+For any questions or collaborations, feel free to reach out. 
