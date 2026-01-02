@@ -104,6 +104,42 @@ Analysis of Mytra (possibly Myntra) e-commerce data.
 [Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/blob/main/Netflix)  
 Multiple notebooks analyzing Netflix TV shows and movies data, including EDA and recommendations.
 
+### 26. Adult Data Analysis
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/Adult-data)  
+EDA and analysis on adult dataset, possibly census data for classification tasks.
+
+### 27. Analytical Vidhya Projects
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/Analytical-Vidhya-projects)  
+Collection of projects from Analytics Vidhya, including various data science challenges and solutions.
+
+### 28. Credit Default Prediction
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/Credit-Default-Prediction)  
+Predicting credit defaults using classification algorithms on financial data.
+
+### 29. Decision Tree Classifier
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/Decisiontreeclassifier)  
+Implementation and application of decision tree classifiers for various prediction tasks.
+
+### 30. House Price Predictions
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/House-price-predictions)  
+Predicting house prices using regression models, involving feature analysis and EDA.
+
+### 31. Machine Learning Regression
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/Machine-Learing-Regression)  
+Various regression projects using machine learning techniques.
+
+### 32. NLP Projects
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/NLP)  
+Natural Language Processing projects, including text analysis, sentiment analysis, and language models.
+
+### 33. Sales Analysis
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/Sales)  
+Analysis of sales data, including trends, forecasting, and visualizations.
+
+### 34. SMS Spam Detection
+[Link](https://github.com/Vinodkumar-yerraballi/Pesonal-Projects/tree/main/SMS-spam-detection)  
+Classification project to detect spam messages in SMS data using NLP and machine learning.
+
 ## Technologies Used
 - Python
 - Jupyter Notebook
